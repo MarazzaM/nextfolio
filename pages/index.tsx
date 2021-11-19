@@ -50,7 +50,7 @@ const Home: NextPage = () => {
       />
       <br />
       <span className={styles.text}>
-      Let's work together for a better future
+      Lets work together for a better future
       </span>
     </div>
     </div>
