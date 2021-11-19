@@ -47,6 +47,9 @@
 }
 
 .mobile-active {
+  -webkit-animation: fade-in-right 0.5s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: fade-in-right 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   position: absolute;
   z-index: 10;
   border-bottom: 3px solid black;
