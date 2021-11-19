@@ -1,6 +1,7 @@
 @import "_variables.scss";
 @import "_animations.scss";
 .nav {
+  font-size: $navbar;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
@@ -15,18 +16,23 @@
     animation: fade-in-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
   .logo{
+    cursor: pointer;
     color: color(keyword);
   }
   .close-btn{
+    cursor: pointer;
     color:color(atention);
   }
   .menu-btn{
+    cursor: pointer;
     color:color(builtin);
   }
 }
 
-.mobile-active {
-  
+.mobile-active {  
+    border-bottom: 3px solid black;
+    border-left: 4px solid black;
+    box-shadow: 0px 2px 5px black;
     .logo{
         display: none;
     }

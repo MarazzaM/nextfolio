@@ -1,0 +1,50 @@
+@import '_variables.scss';
+
+.hero{
+  h1{
+    margin: 3rem auto 1rem auto;
+    text-transform: uppercase;
+    color: color(keyword);
+  }
+}
+.spheres{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  max-width: 300px;
+  span{
+    font-size: $icon-font;
+  }
+}
+//moving letters
+.type{
+color: color(definition);
+}
+//animated delete 
+.cursor{
+  background: color(normal);
+  line-height: 17px;
+  margin-left: 3px;
+  animation: blink .9s infinite;
+  width: 2px;
+  height: 15px;
+  display: inline-block;
+}
+
+.linkedin{
+color: color(linkedin);
+}
+.github{
+  color: color(github);
+  }
+.mail{
+    color: color(gmail);
+  }
+  //animated delete
+@keyframes blink {
+  0% {background: color(background-aod)}
+  50% {background: color(normal)}
+  100% {background: color(background-aod)}
+}
