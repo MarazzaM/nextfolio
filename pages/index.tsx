@@ -34,9 +34,9 @@ const Home: NextPage = () => {
         projects. Always ready to learn and take on new challenges
       </p>
       <div className={styles.spheres}>
-      <span className={styles.linkedin}><a href="https://www.linkedin.com/in/mat%C3%ADas-edgardo-marazza-cantero" target="_blank" rel="noopener noreferral"><BsLinkedin/></a></span>
-      <span className={styles.github}><a href="https://github.com/MarazzaM"  target="_blank" rel="noopener noreferral"><BsGithub/></a></span>
-      <span className={styles.mail}><a href="mailto:memarazza@gmail.com" rel="noopener noreferral" ><BsGoogle/></a></span>
+      <span className={styles.linkedin}><a href="https://www.linkedin.com/in/mat%C3%ADas-edgardo-marazza-cantero" target="_blank" rel=" noreferrer"><BsLinkedin/></a></span>
+      <span className={styles.github}><a href="https://github.com/MarazzaM"  target="_blank" rel="noreferrer"><BsGithub/></a></span>
+      <span className={styles.mail}><a href="mailto:memarazza@gmail.com" rel=" noreferrer" ><BsGoogle/></a></span>
     </div>
     <a href="/marazza-cv.pdf" download className={styles.neon}> See my Resume </a>
     </div>
