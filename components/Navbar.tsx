@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <nav className={active ? "mobile-active nav" : "nav anim-enter"}>
             <div className="logo" onClick={()=> setActive(false)}>
-            {"<"} MARAZZA M {">"}
+            <Link href="/"> &lt; MARAZZA M &gt;</Link>
             </div>
             <ul>
                 <li className={router.pathname == "/" ? "active" : ""} onClick={()=> setActive(false)}>
