@@ -1,0 +1,55 @@
+@import "_variables.scss";
+@import "_animations.scss";
+.nav {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-height: 3rem;
+  padding: 0 1rem 0 1rem;
+  ul {
+    list-style: none;
+    display: none;
+    -webkit-animation: fade-in-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  .logo{
+    color: color(keyword);
+  }
+  .close-btn{
+    color:color(atention);
+  }
+  .menu-btn{
+    color:color(builtin);
+  }
+}
+
+.mobile-active {
+  
+    .logo{
+        display: none;
+    }
+    .menu-btn{
+        display: none;
+    }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 0;
+    margin: auto;
+    li{
+      padding: 1rem;
+    }
+  }
+  
+}
+.anim-enter{
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
+}
+.active{
+  color:color(instance);
+}
