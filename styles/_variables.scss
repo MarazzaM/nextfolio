@@ -1,9 +1,15 @@
 /*========== FONTS ==========*/
 
 /*========== shortcuts function color and screen size==========*/
+$desktop:768px;
+$desktop2:950px;
+$desktop3:1130px;
+
+//allows color:color(primary); mapping it
 @function color($color-name){
     @return map-get($colors,$color-name)
 };
+
 @mixin desktop {
     @media(min-width: #{$desktop}){
         @content;
@@ -43,25 +49,22 @@ $colors: (
 );
 
 
-$desktop:768px;
-$desktop2:950px;
-$desktop3:1130px;
 
 //Fuente
 $navbar:1.25rem;
 $biggest-font-s: 8rem;
 $big-big-font: 6.5rem;
-$big-big-sub:3rem;
-$big-big-regular:2rem;
 $big-big-icon:4rem;
+$big-big-sub:3rem;
+$icon-font: 3rem;
 $h1-font-size: 2.5rem;
+$font-size-hero: 2.5rem;
+$big-big-regular:2rem;
 $h2-font-size: 2.1rem;
 $h3-font-size: 1.5rem;
 $regular-font: 1.3rem;
 $smallest-font: .75rem;
-$font-size-hero: 2.5rem;
 $sub-hero:1rem;
-$icon-font: 3rem;
 
 //spacing
 $normal-spacing:.1rem;
@@ -79,6 +82,7 @@ $mb-3: 1.5rem;
 $mb-4: 2rem;
 $mb-5: 2.5rem;
 $mb-6: 3rem;
+$mb-8:4rem;
 
 //index
 $z-tooltip:10;

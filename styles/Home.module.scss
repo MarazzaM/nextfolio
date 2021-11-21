@@ -8,11 +8,40 @@
     color: color(keyword);
     font-size: $font-size-hero;
     @include desktop2{
+  font-size: $big-big-sub;
       margin: auto;
+    }
+    @include desktop3{
       font-size: $big-big-font;
     }
   }
 }
+
+//moving letters
+.type{
+  color: color(definition);
+  font-size: $sub-hero;
+  @include desktop3{
+    font-size: $big-big-sub;
+  }
+  @include desktop2{
+    font-size: $big-big-regular;
+  }
+  }
+  //animated delete 
+  .cursor{
+    background: color(normal);
+    line-height: 17px;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+    width: 2px;
+    height: 15px;
+    display: inline-block;
+    @include desktop2{
+    line-height: 50px;
+      height: 30px;
+    }
+  }
 .container{
   @include desktop2{
     margin: auto;
@@ -29,8 +58,13 @@ grid-row-gap: 0px;
   font-size: $regular-font;
   width: 95%;
 margin: auto;
+
 @include desktop{
-  margin-top: 4rem;
+  margin-top: $mb-4;
+font-size: $h3-font-size;
+}
+@include desktop3{
+  margin: $mb-8 auto !important;
   font-size: $big-big-regular;
 }
 }
@@ -48,28 +82,6 @@ margin: auto;
     @include desktop{
       font-size: $big-big-icon;
     }
-  }
-}
-//moving letters
-.type{
-color: color(definition);
-font-size: $sub-hero;
-@include desktop2{
-  font-size: $big-big-sub;
-}
-}
-//animated delete 
-.cursor{
-  background: color(normal);
-  line-height: 17px;
-  margin-left: 3px;
-  animation: blink 1s infinite;
-  width: 2px;
-  height: 15px;
-  display: inline-block;
-  @include desktop2{
-  line-height: 50px;
-    height: 30px;
   }
 }
 
