@@ -13,12 +13,14 @@ const Home: NextPage = () => {
     <div className={styles.container}>
     <div className={styles.hero}>
       <h1>Matías Marazza</h1>
+      <span className={styles.type}>
+      &#128293;
       <Typewriter words={['Front End Developer.', 'React Developer.', 'UI/UX Developer.', 'Student.', 'Next.js enthusiast.']} 
       typingSpeed={150}
       erasingSpeed={100}
-      className={styles.type}
       cursorClassName={styles.cursor}
       /> 
+      </span>
       <br />
       {/* prevent the page from jumping   */}
       <div className={styles.img}>
