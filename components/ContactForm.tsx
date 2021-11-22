@@ -46,7 +46,7 @@ export const ContactForm = () => {
           <br />
           <span className={styles.label}>Phone Number</span>
           <br />
-          <input type="tel" size={20} name="phone"  pattern="[0-9]{2}-[0-9]{4}-[0-9]{4} " placeholder="11-8888-8888" className={styles.input} required />
+          <input type="tel" size={20} name="phone"  placeholder="11-8888-8888" className={styles.input} required />
           <br />
           <span className={styles.label}>Email</span>
           <br />
