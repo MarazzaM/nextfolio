@@ -50,7 +50,7 @@ export const ContactForm = () => {
           <br />
           <span className={styles.label}>Email</span>
           <br />
-          <input type="email" placeholder="Insert email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" name="email" className={styles.input} required />
+          <input type="email" placeholder="Insert email"  name="email" className={styles.input} required />
           <br />
         </div>
         <div className="formWord">
