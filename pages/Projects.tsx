@@ -9,14 +9,14 @@ function Projects() {
             title: "Ñam Ñam",
             description:"Next.js SPA | with contact form that automatically responds to whoever fills it out. PWA installable.",
             url: "https://dog-web-pwa.vercel.app",
-            img: "/developer.svg",
+            img: "/7.webp",
             id:"c0"
         },
         {
             title: "Tech Design",
             description:"SPA | Community of developers with resources and help to start web development.",
             url: "https://marazzam.github.io/techdesign/",
-            img: "/developer.svg",
+            img: "/4.webp",
             id:"c1"
         },
         
@@ -24,21 +24,21 @@ function Projects() {
             title: "S y S",
             description:"SPA | with multiple images loaded in carousels.This was my first simple attempt to use Next.js",
             url: "https://sojasysojitos.vercel.app",
-            img: "/developer.svg",
+            img: "/6.webp",
             id:"c2"
         },
         {
             title: "Ta'kabrom tattoo",
             description:"Tattoo artist page showcasing her work.",
             url: "https://takabrom-tattoo.web.app",
-            img: "/developer.svg",
+            img: "/1.webp",
             id:"c3"
         },
         {
             title: "Old portfolio",
             description:"My old portfolio, the first website I created.",
             url: "https://marazzam.github.io/portfolio/",
-            img: "/developer.svg",
+            img: "/5.webp",
             id:"c4"
         },
        
@@ -46,14 +46,14 @@ function Projects() {
             title: "Kitty Witty API Call",
             description:"Simple HTML, CSS and JS page to test APIs call",
             url: "https://kitty-witty.web.app",
-            img: "/developer.svg",
+            img: "/3.webp",
             id:"c5"
         },
         {
             title: "Vuelo del Alma",
             description:"Yoga teacher page using basic bootstrap.",
             url: "https://vuelo-del-alma.web.app",
-            img: "/developer.svg",
+            img: "/2.webp",
             id:"c6"
         },
 
