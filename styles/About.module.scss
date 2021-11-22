@@ -100,8 +100,11 @@ color: #fff;
 .enthusiast{
     color: color(definition);
     font-size: $h3-font-size;
-    width: max-content;
 margin: 1rem auto;
+@include desktop{
+    width: max-content;
+
+}
 }
 .subname{
     @extend .enthusiast;
@@ -141,11 +144,15 @@ margin: 1rem auto;
     color: color(definition);
 }
 .soft{
-    width: 50%;
-    margin: auto;
+    width: 90%;
+    margin: 2rem auto;
     background: #181b20;
 border: 3px solid black;
 border-radius: 1rem;
 padding: 1rem;
 margin: auto;
+@include desktop{
+    width: 50%;
+
+}
 }

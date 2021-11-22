@@ -1,0 +1,116 @@
+@import '_variables.scss';
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: color(background-dark);
+    border: 5px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    @include desktop{
+        width: 50vw;
+    max-width: 1000px;
+
+        display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+padding: 3rem;
+
+    }
+}
+.input{
+    background: #f6f6f6;
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem
+}
+.textfield{
+    @extend .input;
+    resize: none;
+    padding: .5rem;
+    @include desktop3{
+        width: 310px;
+        height: 150px;
+    }
+}
+//neon button
+.neon {
+    font-size: $regular-font;
+    margin: 1rem auto;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: color(atention);
+    border: color(atention) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 color(atention), 0 0 0.5em 0 color(atention);
+    position: relative;
+    background: inherit;
+    transition: all .5s ease;
+    @include desktop{
+      font-size: $big-big-regular;
+    }
+  }
+  
+  .neon::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: color(atention);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+    opacity: 0.7;
+  }
+  
+  .neon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em color(atention);
+    opacity: 0;
+    background-color: color(atention);
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+  
+  .neon:hover,
+  .neon:focus {
+    color: color(atention2);
+    text-shadow: none;
+  }
+  
+  .neon:hover::before,
+  .neon:focus::before {
+    background: color(atention2);
+  }
+  .neon:hover::after,
+  .neon:focus::after {
+    background: color(atention2);
+  }
+  
+    .neon:hover{
+      background: color(atention);
+    }
+    .lets{
+        color: color(keyword);
+    }
+    .label{
+        color: color(builtin);
+    }

@@ -1,0 +1,32 @@
+@import '_variables.scss';
+
+.type{
+   font-size:$big-big-regular ; 
+}
+ //animated delete 
+ .cursor{
+    background: color(normal);
+    line-height: 17px;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+    width: 2px;
+    height: 15px;
+    display: inline-block;
+    @include desktop2{
+    line-height: 37px;
+      height: 30px;
+    }
+  }
+  @keyframes blink {
+    0% {background: color(background-aod)}
+    50% {background: color(normal)}
+    100% {background: color(background-aod)}
+  }
+  .text{
+    font-size: $regular-font;
+    @include desktop{
+      width: 70%;
+margin: auto;
+      font-size: $big-big-regular;
+    }
+  }
