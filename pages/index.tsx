@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       </div>
       <p className={styles.text}>
         An aspiring developer, who loves to bring imagination and creativity to
-        projects. Always ready to learn and take on new challenges
+        projects. Always ready to learn and take on new challenges.
       </p>
       <div className={styles.spheres}>
       <span className={styles.linkedin}><a href="https://www.linkedin.com/in/mat%C3%ADas-edgardo-marazza-cantero" target="_blank" rel=" noreferrer"><BsLinkedin/></a></span>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
       />
       <br />
       <span className={styles.text}>
-      Lets work together for a better future
+      Lets work together for a better future.
       </span>
     </div>
     </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import styles from '../styles/Card.module.scss'
 
 function Card(props:any) {
     const path = `${props.img}`;
     return (
-        <div>
+        <div className={styles.card} id={props.id}>
             <h1>{props.title}</h1>
             <Image
             src= {`${path}`}
