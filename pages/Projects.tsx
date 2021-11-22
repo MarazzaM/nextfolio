@@ -60,7 +60,7 @@ function Projects() {
     ]
     return (
         <div>
-            <h1 className={styles.title}>My projects</h1>
+            <h1 className="title">My projects</h1>
             <p className={styles.text}>Every day this section grows with more and better projects.</p>
        <div className={styles.container}>
        <Card

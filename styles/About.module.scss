@@ -1,0 +1,151 @@
+@import '_variables.scss';
+
+.container{
+    width: 100vw;
+@include desktop{
+    display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}    
+}
+.text{
+    @include desktop{
+        width: 80%;
+    margin: auto;
+    }
+    }
+//grid declaration
+.first { 
+    @include desktop{
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+}
+.second { 
+    @include desktop{
+        grid-area: 1 / 2 / 2 / 3;
+    } 
+}
+
+//subgrid
+.subgrid{
+    @include desktop{
+        display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+    }
+}
+.subfirst {
+    background: #181b20;
+border: 3px solid black;
+border-radius: 1rem;
+padding: .2rem 1rem;
+margin: 1rem;
+@include desktop{
+    grid-area: 1 / 1 / 2 / 2; 
+}
+    }
+.subsecond {
+    background: #181b20;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: .2rem 1rem;
+    margin: 1rem;
+    @include desktop{
+     grid-area: 1 / 2 / 2 / 3; 
+    }
+    }
+
+.border{
+    background: color(background-dark);
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+margin: auto 1rem;
+}
+.name{
+    color: color(keyword);
+    font-size: $h2-font-size;
+    margin-bottom: 0;
+}
+.svg{
+    margin: auto 0;
+}
+.row{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+transition: all .5s ease;
+span{
+    &:hover{
+    cursor: pointer;
+    }
+}
+}
+
+.stack{
+    display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+.image{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.enthusiast{
+    color: color(definition);
+    font-size: $h3-font-size;
+    width: max-content;
+margin: 1rem auto;
+}
+.subname{
+    @extend .enthusiast;
+margin-bottom: 1rem;
+margin-top: 0;
+}
+.about{
+    width: 93%;
+    background: #181b20;
+border: 3px solid black;
+border-radius: 1rem;
+padding: 1rem;
+margin: 1rem auto;
+@include desktop{
+    width: auto;
+}
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    li{
+        font-size: $regular-font;
+        margin: .5rem;
+        transition: all .3s ease;
+        &:hover{
+            scale: 1.2;
+            color: color(instance);
+        }
+    }
+}
+.containerlist{
+    display: flex;
+}
+.tecno{
+    font-size: $h3-font-size;
+    color: color(definition);
+}
+.soft{
+    width: 50%;
+    margin: auto;
+    background: #181b20;
+border: 3px solid black;
+border-radius: 1rem;
+padding: 1rem;
+margin: auto;
+}

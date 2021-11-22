@@ -10,13 +10,7 @@
         flex-direction: row;
     }
 }
-.title{
-    font-size: 3rem;
-    color: color(builtin);
-    @include desktop{
-        font-size: 4rem;
-    }
-}
+
 .text{
     width: 80%;
     margin: auto;

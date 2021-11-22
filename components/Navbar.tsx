@@ -21,9 +21,7 @@ function Navbar() {
                 <li className={router.pathname == "/About" ? "active" : ""} onClick={()=> setActive(false)}>
                     <Link href="/About" >About</Link>
                 </li>
-                <li className={router.pathname == "/Skills" ? "active" : ""} onClick={()=> setActive(false)}>
-                    <Link href="/Skills">Skills</Link>
-                </li>
+              
                 <li className={router.pathname == "/Projects" ? "active" : ""} onClick={()=> setActive(false)}>
                     <Link href="/Projects">Projects</Link>
                 </li>
