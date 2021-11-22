@@ -52,7 +52,7 @@ function About() {
             </details>
             <h3 className={styles.enthusiast}>Learning enthusiast</h3>
             <p>
-              I'm always looking for new knowledge, whether it&#39;s reading about
+              I&apos;m always looking for new knowledge, whether it&#39;s reading about
               new technologies, developing new innovative ideas, starting new
               projects, and always experimenting with the things I learn. I stay
               informed about new and creative ways of doing things,
