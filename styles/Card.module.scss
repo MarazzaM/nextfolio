@@ -1,9 +1,42 @@
-.card{
-    height: 500px;
-    width: 300px;
-    padding: 2rem;
-    border-radius: 4rem 1rem;
-    border: 4px solid black;
-    margin: 1rem;
+@import "_variables.scss";
 
+.card {
+  height: 500px;
+  width: 300px;
+  padding: 2rem;
+  border-radius: 4rem 1rem;
+  border: 4px solid black;
+  margin: 2rem 3rem;
+  background: color(background-dark);
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.title {
+  color: color(keyword);
+}
+.description{
+    width: 115%;
+}
+.button {
+  width: 80%;
+  display: inline-flex;
+  background: color(definition);
+  color: #fff;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease;
+  border-radius: .5rem;
+  box-shadow: 10px 5px 5px black;
+  &:hover{
+      background: color(definition-dark);
+      box-shadow: none;
+      color: color(background-dark);
+
+  }
+  &:focus{
+      color: color(normal);
+  }
 }

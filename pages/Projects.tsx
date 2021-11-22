@@ -8,7 +8,7 @@ function Projects() {
         {
             title: "Ñam Ñam",
             description:"Next.js SPA | with contact form that automatically responds to whoever fills it out. PWA installable.",
-            url: "https://sojasysojitos.vercel.app",
+            url: "https://dog-web-pwa.vercel.app",
             img: "/developer.svg",
             id:"c0"
         },
@@ -22,7 +22,7 @@ function Projects() {
         
         {
             title: "S y S",
-            description:"SPA | with multiple images loaded in carousels.",
+            description:"SPA | with multiple images loaded in carousels.This was my first simple attempt to use Next.js",
             url: "https://sojasysojitos.vercel.app",
             img: "/developer.svg",
             id:"c2"
@@ -37,23 +37,31 @@ function Projects() {
         {
             title: "Old portfolio",
             description:"My old portfolio, the first website I created.",
-            url: "marazzam.github.io/portfolio/",
+            url: "https://marazzam.github.io/portfolio/",
             img: "/developer.svg",
             id:"c4"
+        },
+       
+        {
+            title: "Kitty Witty API Call",
+            description:"Simple HTML, CSS and JS page to test APIs call",
+            url: "https://kitty-witty.web.app",
+            img: "/developer.svg",
+            id:"c5"
         },
         {
             title: "Vuelo del Alma",
             description:"Yoga teacher page using basic bootstrap.",
             url: "https://vuelo-del-alma.web.app",
             img: "/developer.svg",
-            id:"c5"
+            id:"c6"
         },
 
     ]
     return (
         <div>
-            <h1>My projects</h1>
-            <p>Every day this section grows with more and better projects.</p>
+            <h1 className={styles.title}>My projects</h1>
+            <p className={styles.text}>Every day this section grows with more and better projects.</p>
        <div className={styles.container}>
        <Card
         title={project[0].title}
@@ -96,6 +104,13 @@ function Projects() {
         url={project[5].url}
         img={project[5].img}
         id={project[5].id}
+        />
+        <Card
+        title={project[6].title}
+        description={project[6].description}
+        url={project[6].url}
+        img={project[6].img}
+        id={project[6].id}
         />
        </div>
         </div>

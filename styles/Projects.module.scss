@@ -10,3 +10,19 @@
         flex-direction: row;
     }
 }
+.title{
+    font-size: 3rem;
+    color: color(builtin);
+    @include desktop{
+        font-size: 4rem;
+    }
+}
+.text{
+    width: 80%;
+    margin: auto;
+    font-size: $regular-font;
+    @include desktop{
+        font-size: $big-big-regular;
+        width: 90%;
+    }
+}
