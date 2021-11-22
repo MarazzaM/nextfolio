@@ -46,13 +46,13 @@ function About() {
                 </span>
               </summary>
               <p>
-                Why was the JavaScript developer sad? Because they didn't Node
+                Why was the JavaScript developer sad? Because they didn&#39;t Node
                 how to Express himself
               </p>
             </details>
             <h3 className={styles.enthusiast}>Learning enthusiast</h3>
             <p>
-              I'm always looking for new knowledge, whether it's reading about
+              I'm always looking for new knowledge, whether it&#39;s reading about
               new technologies, developing new innovative ideas, starting new
               projects, and always experimenting with the things I learn. I stay
               informed about new and creative ways of doing things,
@@ -65,10 +65,10 @@ function About() {
           <div className={styles.text}>
             <div className={styles.about}>
               <p>
-                I'm a self taught front end developer, I am comfortable working
+                I&#39;m a self taught front end developer, I am comfortable working
                 with JavaScript, HTML and CSS to deliver comprehensive customer
-                experiences. I 'm also working with ReactJS and aspire to be a
-                full MERN developer in the near future. I'm a passionate
+                experiences. I &#39;m also working with ReactJS and aspire to be a
+                full MERN developer in the near future. I&#39;m a passionate
                 developer, love to work with Next.js and SCSS, always eager to
                 use the latest web technologies, looking for opportunities and
                 challenges to improve my technical and soft skills.
@@ -76,7 +76,7 @@ function About() {
             </div>
             <div className={styles.subgrid}>
               <div className={styles.subfirst}>
-                <h2 className={styles.tecno}>Technologies I'm using</h2>
+                <h2 className={styles.tecno}>Technologies I&#39;m using</h2>
                 <div className={styles.containterlist}>
                   <ul className={styles.list}>
                     <li>React.js</li>
@@ -95,7 +95,7 @@ function About() {
                 </div>
               </div>
               <div className={styles.subsecond}>
-                <h2 className={styles.tecno}>Technologies I'm learning</h2>
+                <h2 className={styles.tecno}>Technologies I&#39;m learning</h2>
                 <div className={styles.containerlist}>
                   <ul className={styles.list}>
                     <li>NodeJS</li>
