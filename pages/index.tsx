@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div className={styles.hero}>
       <h1>Matías Marazza</h1>
       <span className={styles.type}>
-      &#128293;
+      &#128126;
       <Typewriter words={['Front End Developer.', 'React Developer.', 'UI/UX Developer.', 'Student.', 'Next.js enthusiast.']} 
       typingSpeed={150}
       erasingSpeed={100}
