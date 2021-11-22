@@ -39,7 +39,7 @@ export const ContactForm = () => {
   return (
     <form action="" onSubmit={sendEmail} className={styles.form}>
         <div className="formWord">
-          <h2 className={styles.lets}>Let's get in touch!</h2>
+          <h2 className={styles.lets}>Let&apos;s get in touch!</h2>
           <span className={styles.label}>Name</span>
           <br />
           <input type="text" name="fullname" placeholder="Insert name" className={styles.input} required />
