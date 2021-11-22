@@ -113,16 +113,16 @@ function About() {
       <div className={styles.soft}>
           <h3 className={styles.tecno}>Soft Skills</h3>
           <p>
-          &#11088;Teamwork&#11088;
-        Patience&#11088;
-        Flexibility&#11088;
-        Focus&#11088;
-        Learning&#11088;
-        Communication&#11088;
-        Accountability&#11088;
-        Proactivity&#11088;
-        Feedback&#11088;
-        Listening&#11088;
+          ⭐Teamwork⭐
+        Patience⭐
+        Flexibility⭐
+        Focus⭐
+        Learning⭐
+        Communication⭐
+        Accountability⭐
+        Proactivity⭐
+        Feedback⭐
+        Listening⭐
           </p>
         </div>
     </div>
