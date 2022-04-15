@@ -6,6 +6,20 @@ import styles from '../styles/Projects.module.scss'
 function Projects() {
     const project = [
         {
+            title: "novo Porcelanatos",
+            description:"Work for novoPorcelanatos, first professional project.",
+            url: "https://novoporcelanatos.com/",
+            img: "/8.webp",
+            id:"c01"
+        },
+        {
+            title: "Basic template",
+            description:"Basic template for ecommerce.",
+            url: "https://basic-template-xi.vercel.app",
+            img: "/9.webp",
+            id:"c02"
+        },
+        {
             title: "Ñam Ñam",
             description:"Next.js SPA | with contact form that automatically responds to whoever fills it out. PWA installable.",
             url: "https://dog-web-pwa.vercel.app",
@@ -111,6 +125,13 @@ function Projects() {
         url={project[6].url}
         img={project[6].img}
         id={project[6].id}
+        />
+                <Card
+        title={project[7].title}
+        description={project[7].description}
+        url={project[7].url}
+        img={project[7].img}
+        id={project[7].id}
         />
        </div>
         </div>
